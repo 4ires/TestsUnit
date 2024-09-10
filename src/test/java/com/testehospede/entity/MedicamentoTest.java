@@ -60,8 +60,8 @@ class MedicamentoTest {
 		assertAll("novoMedicamento", 
 				()-> assertEquals(3L, novoMedicamento.getId()),
 				()-> assertEquals("Dipirona", novoMedicamento.getNome()),
-				()-> assertEquals("ana@gmail.com", novoMedicamento.getBula()),
-				()-> assertEquals("(55)5555-5555", novoMedicamento.getDataValidade()));
+				()-> assertEquals("Analgésico e antipirético", novoMedicamento.getBula()),
+				()-> assertEquals("01/12/2025", novoMedicamento.getDataValidade()));
 	}
 
 }

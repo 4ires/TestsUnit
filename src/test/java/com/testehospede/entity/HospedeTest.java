@@ -63,6 +63,5 @@ class HospedeTest {
 				()-> assertEquals("Ana", novoHospede.getNome()),
 				()-> assertEquals("ana@gmail.com", novoHospede.getEmail()),
 				()-> assertEquals("(55)5555-5555", novoHospede.getTelefone()));
-		
 	}
 }
